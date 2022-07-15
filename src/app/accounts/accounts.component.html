@@ -1,0 +1,6 @@
+<h2>{{customer.name | uppercase}}Details</h2>
+<div><span>id: </span>{{customer.id}}</div>
+<div>
+    <label for="name">Customer Name:</label>
+    <input id="name" [(ngModel)]="customer.name" placeholder="name">
+</div>
